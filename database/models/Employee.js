@@ -16,6 +16,12 @@ const Employee = db.define("employee", {
   department: {
     type: Sequelize.STRING,
   },
+
+  // imageUrl: {
+  //   type: Sequelize.STRING,
+  // }
+
+
 });
 
 module.exports = Employee;
