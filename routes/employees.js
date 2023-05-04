@@ -32,7 +32,7 @@ router.delete('/:id', ash(async(req, res) => {
 
 // Add new employee
 router.post('/', ash(async(req, res) => {
-  let newEmlpoyee = await Employee.create(req.body);
+  let newEmployee = await Employee.create(req.body);
   res.status(200).json(newEmployee);
 }));
 
