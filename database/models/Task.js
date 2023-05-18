@@ -8,11 +8,16 @@ const Task = db.define("task", {
     allowNull: false
   },
 
-  timeslot: {
-    type: Sequelize.STRING
+  description: {
+    type: Sequelize.STRING,
+    allowNull: false
   },
 
-  location: {
+  priority: {
+    type: Sequelize.INTEGER
+  },
+
+  completion: {
     type: Sequelize.STRING
   },
 
