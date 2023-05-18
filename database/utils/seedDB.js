@@ -21,20 +21,23 @@ const seedDB = async () => {
 
 	const dummyTask = await Task.create({
 		title: "Create Frontend",
-        location: "C107",
-        timeslot: "W 5:35 - 8:15 PM"
+        description: "just do it",
+        priority: 2,
+		completion: "In Progress"
 	});
 
 	const dummyTask2 = await Task.create({
 		title: "Create Backend",
-        location: "C107",
-        timeslot: "W 5:35 - 8:15 PM"
+		description: "just do it",
+        priority: 1,
+		completion: "Completed"
 	});
 
 	const dummyTask3 = await Task.create({
 		title: "Connect frontend to backend",
-        location: "C107",
-        timeslot: "W 5:35 - 8:15 PM"
+		description: "just do it",
+        priority: 0,
+		completion: "Completed"
 	});
 
 
