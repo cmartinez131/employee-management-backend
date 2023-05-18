@@ -14,7 +14,7 @@ const Task = db.define("task", {
   },
 
   priority: {
-    type: Sequelize.INTEGER
+    type: Sequelize.STRING,
   },
 
   completion: {

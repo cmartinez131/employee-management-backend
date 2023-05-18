@@ -22,21 +22,21 @@ const seedDB = async () => {
 	const dummyTask = await Task.create({
 		title: "Create Frontend",
         description: "just do it",
-        priority: 2,
+        priority: "Not Urgent",
 		completion: "In Progress"
 	});
 
 	const dummyTask2 = await Task.create({
 		title: "Create Backend",
 		description: "just do it",
-        priority: 1,
+        priority: "Not Urgent",
 		completion: "Completed"
 	});
 
 	const dummyTask3 = await Task.create({
 		title: "Connect frontend to backend",
 		description: "just do it",
-        priority: 0,
+        priority: "Urgent",
 		completion: "Completed"
 	});
 
