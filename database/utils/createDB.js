@@ -3,10 +3,10 @@ const {dbName, dbUser, dbPwd} = require('./configDB');
 
 
 const config = {
-    user: dbUser,
-    host: 'localhost',
+    user: "vgpngwfm",
+    host: 'otto.db.elephantsql.com',
     port: 5432,
-    password: dbPwd
+    password: "xK8zbgiryneYLEUZnIyqqmFLWXH2zjJ8"
   };
     
   //attempt to create DB
